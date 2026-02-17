@@ -1,0 +1,2 @@
+#Describe your impressions of the efficacy of the Forrest IDS based on these exercises. Are there any reasons why it would be difficult in practice to reliably identify attacks using this IDS?
+The Forrest IDS is effective for detecting threats that take a large number of system calls with unusual patterns.  It cannot detect threats that use very few system calls, or use system call patterns that resemble normal use.  Attacks can also be made more stealthy by making benign system call patterns so anomalies make up a smaller percentage of the total system calls of a process.  

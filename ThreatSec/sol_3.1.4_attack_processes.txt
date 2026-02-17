@@ -1,0 +1,6 @@
+# Identify the 3 processes most likely to be involved in the attack described in your attack_test log. 
+These 3 processes have both high percentage and number of anomalies in the attack test and low number of anomalies in the benign test.  
+
+plugin-containe
+Socket Thread
+gdbus
